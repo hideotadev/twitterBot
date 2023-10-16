@@ -5,7 +5,7 @@
 # ref: https://stackoverflow.com/questions/750172/change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-git
 
 git filter-branch --env-filter '
-OLD_EMAIL="remeh@remeh.fr"
+OLD_EMAIL="isaac.ardis@gmail.com"
 CORRECT_NAME="siriusblk7"
 CORRECT_EMAIL="sirius.red.dev@gmail.com"
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
